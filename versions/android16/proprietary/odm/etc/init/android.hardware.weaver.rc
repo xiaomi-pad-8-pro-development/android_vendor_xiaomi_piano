@@ -1,4 +1,0 @@
-service miweaver_hal_service /odm/bin/hw/android.hardware.weaver
-    class hal
-    user  system
-    group system drmrpc
