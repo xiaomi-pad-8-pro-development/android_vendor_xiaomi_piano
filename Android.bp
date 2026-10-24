@@ -40843,13 +40843,6 @@ sh_binary {
 }
 
 
-sh_binary {
-    name: "init.qti.display_boot",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.display_boot.sh",
-    filename: "init.qti.display_boot.sh",
-    soc_specific: true,
-}
 
 
 sh_binary {

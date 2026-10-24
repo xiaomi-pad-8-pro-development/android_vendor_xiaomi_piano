@@ -971,7 +971,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/hypsys_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hypsys_vendor.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qlm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qlm-service.rc \
-    vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qti.display_boot.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.display_boot.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
@@ -2649,7 +2648,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys.core-service \
     hypsys_vendor \
     init.qcom.sensors \
-    init.qti.display_boot \
     init.qti.media \
     init.qti.qcv \
     init.qti.write \
