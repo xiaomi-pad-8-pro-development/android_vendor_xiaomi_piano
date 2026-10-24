@@ -968,8 +968,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/hlosminkdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hlosminkdaemon.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
-    vendor/xiaomi/piano/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
-    vendor/xiaomi/piano/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/hypsys_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hypsys_vendor.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qccvendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qccvendor.rc \
     vendor/xiaomi/piano/proprietary/vendor/etc/init/init.qlm-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qlm-service.rc \
@@ -2651,22 +2649,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.miperf2-service \
     vendor.xiaomi.hardware.misys.core-service \
     hypsys_vendor \
-    init.class_main \
-    init.kernel.extra_free_kbytes \
-    init.kernel.init_boot-memory \
-    init.kernel.post_boot-memory \
-    init.kernel.post_boot-sun \
-    init.kernel.post_boot-sun_5_2 \
-    init.kernel.post_boot-sun_6_0 \
-    init.kernel.post_boot-sun_default_6_2 \
-    init.kernel.post_boot \
-    init.qcom.class_core \
-    init.qcom.early_boot \
-    init.qcom.post_boot \
     init.qcom.sensors \
-    init.qcom \
     init.qti.display_boot \
-    init.qti.kernel \
     init.qti.media \
     init.qti.qcv \
     init.qti.write \

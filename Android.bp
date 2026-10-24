@@ -40857,101 +40857,17 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "init.class_main",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.class_main.sh",
-    filename: "init.class_main.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.extra_free_kbytes",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.extra_free_kbytes.sh",
-    filename: "init.kernel.extra_free_kbytes.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.init_boot-memory",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.init_boot-memory.sh",
-    filename: "init.kernel.init_boot-memory.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-memory",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-memory.sh",
-    filename: "init.kernel.post_boot-memory.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-sun",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun.sh",
-    filename: "init.kernel.post_boot-sun.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-sun_5_2",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun_5_2.sh",
-    filename: "init.kernel.post_boot-sun_5_2.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-sun_6_0",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun_6_0.sh",
-    filename: "init.kernel.post_boot-sun_6_0.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot-sun_default_6_2",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot-sun_default_6_2.sh",
-    filename: "init.kernel.post_boot-sun_default_6_2.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.kernel.post_boot",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.kernel.post_boot.sh",
-    filename: "init.kernel.post_boot.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.qcom.class_core",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.class_core.sh",
-    filename: "init.qcom.class_core.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.qcom.early_boot",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.early_boot.sh",
-    filename: "init.qcom.early_boot.sh",
-    soc_specific: true,
-}
 
-sh_binary {
-    name: "init.qcom.post_boot",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
-    filename: "init.qcom.post_boot.sh",
-    soc_specific: true,
-}
 
 sh_binary {
     name: "init.qcom.sensors",
@@ -40961,13 +40877,6 @@ sh_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "init.qcom",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qcom.sh",
-    filename: "init.qcom.sh",
-    soc_specific: true,
-}
 
 sh_binary {
     name: "init.qti.display_boot",
@@ -40977,13 +40886,6 @@ sh_binary {
     soc_specific: true,
 }
 
-sh_binary {
-    name: "init.qti.kernel",
-    owner: "xiaomi",
-    src: "proprietary/vendor/bin/init.qti.kernel.sh",
-    filename: "init.qti.kernel.sh",
-    soc_specific: true,
-}
 
 sh_binary {
     name: "init.qti.media",
