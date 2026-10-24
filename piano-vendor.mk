@@ -1488,7 +1488,6 @@ PRODUCT_PACKAGES += \
     libaudioeffecthal.qti \
     libqtigatekeeper \
     mbedtls_qti \
-    sensors.dynamic_sensor_hal \
     vendor.qti.hardware.alarm-impl \
     vendor.qti.hardware.bluetooth.finder-impl-qti \
     vendor.qti.hardware.bluetooth.xpanprovider-impl-qti \
