@@ -1894,8 +1894,6 @@ PRODUCT_PACKAGES += \
     libozotensorflowlite_c \
     libpal_net_if \
     libpalclient \
-    libpaleventnotifier \
-    libpalipcservice \
     libpasrutils \
     libpdmapper \
     libpdnotifier \
@@ -2628,7 +2626,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2-mi-service \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
-    audiohalservice.qti \
     sxrservice \
     vendor.dolby.dms.service \
     vendor.dolby.media.c2-default-service-dax \
