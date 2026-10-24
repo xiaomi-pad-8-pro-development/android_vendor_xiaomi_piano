@@ -46,17 +46,12 @@ do
 
 	# Filter out modules in blocklist - we would see unnecessary errors otherwise
 	load_modules=$(sed = ${dir}/modules.load | sed 'N;s/\n/\t/' | sort -uk2 | sort -nk1 | cut -f2- | grep -w -v ${blocklist_expr} | grep -w -v ${audio_blocklist_expr})
-	first_module=$(echo ${load_modules} | cut -d " " -f1)
-	other_modules=$(echo ${load_modules} | cut -d " " -f2-)
-	if ! ${MODPROBE} -b -s -d ${dir} -a ${first_module} > /dev/null ; then
-		continue
-	fi
-	# load modules individually in case one of them fails to init
-	for module in ${other_modules}; do
-		( ${MODPROBE} -b -d ${dir} -a ${module} > /dev/null ) &
+	# Attempt every module, keeping failures visible and ordered.
+	for module in ${load_modules}; do
+		if ! ${MODPROBE} -b -d ${dir} -a ${module}; then
+			echo "piano-modprobe: failed ${dir}/${module}" >&2
+		fi
 	done
-
-	wait
 
 	setprop vendor.all.modules.ready 1
 	exit 0
