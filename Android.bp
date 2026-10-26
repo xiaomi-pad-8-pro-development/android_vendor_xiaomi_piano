@@ -7825,7 +7825,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm-impl",
     owner: "xiaomi",
@@ -10386,9 +10385,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
-
-
 
 cc_prebuilt_library_shared {
     name: "libagmclient",
@@ -20205,8 +20201,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
-
 cc_prebuilt_library_shared {
     name: "libpasrutils",
     owner: "xiaomi",
@@ -29815,7 +29809,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.dpmaidlservice-V1-ndk",
@@ -39730,7 +39723,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-
 cc_prebuilt_binary {
     name: "sxrservice",
     owner: "xiaomi",
@@ -40822,18 +40814,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 sh_binary {
     name: "init.qcom.sensors",
     owner: "xiaomi",
@@ -40841,9 +40821,6 @@ sh_binary {
     filename: "init.qcom.sensors.sh",
     soc_specific: true,
 }
-
-
-
 
 sh_binary {
     name: "init.qti.media",

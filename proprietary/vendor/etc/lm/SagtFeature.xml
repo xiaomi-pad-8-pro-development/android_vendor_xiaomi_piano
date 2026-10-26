@@ -21,7 +21,7 @@
     <Name>SAGT</Name>
     <Libname>libsagt.so</Libname>
     <Configs>
-        <Enable>1</Enable>
+        <Enable>0</Enable>
     </Configs>
     <Meters>
         <SamplesRequired>4</SamplesRequired>
