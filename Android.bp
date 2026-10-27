@@ -10665,56 +10665,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libar-pal",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libar-pal.so",
-            ],
-            shared_libs: [
-                "libaudioroute-xiaomi",
-                "libar-gsl",
-                "liblog",
-                "libmisight",
-                "libexpat",
-                "liblx-osal",
-                "libaudioroute",
-                "libcutils",
-                "libutilscallstack",
-                "libagmclient",
-                "libvui_intf",
-                "libarmemlog",
-                "libaudioroute_ext",
-                "libhidlbase",
-                "libhardware",
-                "libagm",
-                "libbase",
-                "libutils",
-                "libxlog",
-                "libbinder",
-                "libbinder_ndk",
-                "vendor.xiaomi.hardware.micharge-V2-ndk",
-                "libxml2",
-                "libPeripheralStateUtils",
-                "libtinyalsa",
-                "libtinycompress",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libarmemlog",
     owner: "xiaomi",
     strip: {
