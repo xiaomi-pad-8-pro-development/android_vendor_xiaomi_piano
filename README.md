@@ -1,10 +1,9 @@
 # Vendor blobs for the Xiaomi Pad 8 Pro (piano)
 
-Proprietary files from HyperOS 4 China `OS4.0.5.0.XPYCNXM`, pulled with
-`extract-files.py` from the [device tree](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano).
+| | |
+| --- | --- |
+| Path | `vendor/xiaomi/piano` |
+| From | HyperOS 4 China `OS4.0.5.0.XPYCNXM` |
+| Made by | `extract-files.py` in the [device tree](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano) |
 
-Goes in `vendor/xiaomi/piano`.
-
-`avb/` holds the stock `pvmfw` and `countrycode` images. They are not
-installed; the build copies their hash descriptors into vbmeta, which the
-bootloader verifies.
+`avb/`: stock `pvmfw` and `countrycode`. Not installed; only their hashes go into vbmeta.
