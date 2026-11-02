@@ -2422,6 +2422,7 @@ PRODUCT_PACKAGES += \
     libclient2slpi.notifier \
     libcolortempmode \
     libcrussp \
+    libfsalgocal \
     libdisplaycount \
     libdisplaylog \
     libdither \
